@@ -19,7 +19,7 @@
         text-transform: uppercase;
         text-align: center;
         line-height: 48px;
-        transform: skewX(-25deg);
+        transform: skewX(-20deg);
         margin: 0 5px;
         cursor: pointer;
         transition: 0.5s all;
@@ -28,7 +28,7 @@
             border: none;
         }
         div {
-            transform: skewX(25deg);
+            transform: skewX(20deg);
         }
         &_active {
             color: #fff;

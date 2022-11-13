@@ -322,6 +322,7 @@
         }
     }
     .carousel {
+        padding: 50px 0;
         &__inner {
             position: relative;
             width: 400px;
@@ -397,15 +398,32 @@
         }
     }
     .feed-form {
-        width: 280px;
+        width: 250px;
+        input  {
+            margin-bottom: 10px !important;
+        }
     }    
     .modal {
-        width: 340px;
-        min-height: 380px;
-        padding: 30px 37px 30px 30px;
+        width: 320px;
+        min-height: 350px;
+        padding: 30px 30px 30px 30px;
         &_mini {
             height: 100px;
         }
+        &__close {
+            top: 4px;
+            right: 7px;
+            font-size: 35px;
+        }
+        label.error {
+            font-size: 15px;
+            margin-bottom: 10px;
+            line-height: 15px;
+        }
+    }
+    .button_submit {
+        height: 50px;
+        font-size: 14px;
     }       
 }
 @media (max-width: 376px) {
@@ -557,7 +575,7 @@
         min-height: 330px;
         padding: 30px 30px 30px 30px;
         &__close {
-            right: -33px;
+            font-size: 30px;
         }
         &__subtitle {
             font-size: 17px;
@@ -620,7 +638,7 @@
         font-size: 20px;
         &_left {
             color: #fff;
-            font-size: 23px;
+            font-size: 21px;
             text-align: center;
         }   
     }
@@ -723,9 +741,6 @@
         width: 270px;
         min-height: 300px;
         padding: 25px 25px 25px 25px;
-        &__close {
-            right: -27px;
-        }
         &__subtitle {
             font-size: 17px;
         }
